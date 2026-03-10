@@ -2,28 +2,35 @@
   "expo": {
     "name": "Frishta",
     "slug": "Frishta",
+    "scheme": "frishta",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.jpeg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/logo.jpeg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      // "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/f-logo.jpeg",
+        // "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.infothela.frishta"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.jpeg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1a41fc68-0a46-4024-b195-f41d4a47f480"
+      }
     }
   }
 }
